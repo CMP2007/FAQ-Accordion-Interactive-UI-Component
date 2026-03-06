@@ -1,63 +1,29 @@
-# FAQ accordion solution
+# FAQ Accordion: Interactive UI Component
 
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). 
+This project is a **historical record** of my first steps into **DOM manipulation**. It shows the transition from static layouts to interactive components, using JavaScript to enhance the user experience.
 
-## Table of contents
-  - [Overview](#overview)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+---
 
-![Design preview ](./assets/images/Screenshot.jpg)
+## 🚀 Links
+* **Live Demo:** [SEE DEMO HERE](https://cmp2007.github.io/FAQ-Accordion-Interactive-UI-Component/)
+* **Frontend Mentor Profile:** [View my solutions](https://www.frontendmentor.io/profile/CMP2007)
+* **Original Challenge:** [FAQ accordion](https://www.frontendmentor.io/solutions/faqaccordion-developed-in-css-and-js-BDP5m88gUZ)
 
-## Overview
+---
 
-### Links
+## 📋 Evolution & Context Note
+> ⚠️ **Note on my trajectory:** This repository reflects my past technical stage where I began integrating **JavaScript** with HTML and CSS. Today, while I work with modern frameworks like React, I keep this project in its original state to document how I learned the fundamentals of events and attributes in Vanilla JS.
 
-- [Solution URL here](https://github.com/CMP2007/FAQ-accordion)
-- [Live site URL here](https://cmp2007.github.io/FAQ-accordion/)
+## 📋 Technical Milestones of this Stage
+In this phase of my learning, I successfully implemented:
 
-## My process
+* **Interactive DOM Manipulation:** Use of `querySelectorAll` and `forEach` to attach event listeners to multiple elements simultaneously.
+* **Native HTML Components:** Implementation of `<details>` and `<summary>` tags for a semantic and accessible accordion structure.
+* **Dynamic Attribute Handling:** Logic to detect the `open` state of elements and update icon sources (`src`) via `setAttribute` based on user interaction.
+* **CSS Interactivity:** Use of `:hover` states to improve visual feedback and `nth-of-type` selectors for precise layout styling (like removing the last border).
+* **Cross-browser Consistency:** Early adoption of `normalize.css` to ensure styling stability across different web engines.
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Mobile-first workflow
-
-### What I learned
-
-Actually this is the first design practice with js in some time, on this occasion it may not be much but the biggest learning I have to highlight is using 'querySelectorAll' to obtain the array with all the elements.
-
-All this and then use the 'forEach' method to apply the 'addEventListener' in each of the 'details' elements
-
-```js
-const details = document.querySelectorAll('details');
-```
-```js
-details.forEach(function(item){
-    item.addEventListener('click', function(e) {
-        const clickedItem = this;
-    })
-})
-```
-
-### Continued development
-
-At this time I want to continue doing challenges and practices based on HTML, CSS and JS to develop a good foundation before continuing with my learning path
-
-### Useful resources
-
-- [Video guia de la importancia y inplementacion del archivo normalize](https://www.example.com) - This video allows me to understand and apply the normalize file, an implementation that was really useful to solve certain visual regression errors that arose when uploading the project to github pages.
-
-Therefore, this resource was very useful for the development of the challenge, without a doubt it is a small correction that will be felt in my future practices.
-
-## Author
-
-### Carlos Miguel Puche Moreno
-
-- Frontend Mentor - [CMP2007](https://www.frontendmentor.io/profile/CMP2007)
+## 🛠️ Technologies (at the time)
+* **Vanilla JavaScript:** Event handling and attribute logic.
+* **HTML5 & CSS3:** Semantic structure and responsive design with Media Queries.
+* **Normalize.css:** Standardizing default browser styles.
