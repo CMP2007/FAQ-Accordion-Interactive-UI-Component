@@ -1,7 +1,8 @@
 # FAQ Accordion: Interactive UI Component
 
-This project is a **historical record** of my first steps into **DOM manipulation**. It shows the transition from static layouts to interactive components, using JavaScript to enhance the user experience.
+This repository is evidence of my learning journey. It represents a project I undertook to refine my layout and component logic skills before my current specialization in Full Stack development.
 
+Note: The design and assets were provided by Frontend Mentor. My role was the technical implementation from scratch.
 ---
 
 ## 🚀 Links
