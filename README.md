@@ -12,6 +12,12 @@ Note: The design and assets were provided by Frontend Mentor. My role was the te
 
 ---
 
+### Screenshot
+
+![](./assets/images/Screenshot.jpg)
+
+---
+
 ## 📋 Evolution & Context Note
 > ⚠️ **Note on my trajectory:** This repository reflects my past technical stage where I began integrating **JavaScript** with HTML and CSS. Today, while I work with modern frameworks like React, I keep this project in its original state to document how I learned the fundamentals of events and attributes in Vanilla JS.
 
